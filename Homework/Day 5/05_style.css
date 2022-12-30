@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+   box-sizing: border-box;
+}
+.blue
+{
+    margin-top:50px;
+    margin-left:150px;
+    width:560px;
+    height:360px;
+    background: #031b3a;
+   
+    
+}
+.red1
+{
+    width:560x;
+    height:90px;
+    background:red;
+}
+.circle
+{
+    width:150px;
+    height:150px;
+    background:white;
+    border-radius: 50%;
+    position:relative;
+    bottom:75px;
+    left:180px;
+}
+.red2
+{
+    width:560x;
+    height:90px;
+    background:red;
+    position: relative;
+    top:180px;
+}

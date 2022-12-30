@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+   box-sizing: border-box;
+}
+.yellow
+{
+    margin-top:50px;
+    margin-left:150px;
+    width:560px;
+    height:360px;
+    background:#FFDD00;
+  
+    
+}
+.blue
+{
+    width:560x;
+    height:180px;
+    background:#0057B7;
+}

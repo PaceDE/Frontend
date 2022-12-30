@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+   box-sizing: border-box;
+}
+
+.red
+{
+    margin-top:50px;
+    margin-left:150px;
+    width:560px;
+    height:360px;
+    background:red;
+    padding:55px 240px;
+   
+}
+.wv
+{
+    width:80px;
+    height:250px;
+    background: white;
+}
+.wh
+{
+    width:80px;
+    height:250px;
+    background: white;
+    transform:rotate(90deg);
+}

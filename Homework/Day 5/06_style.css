@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+   box-sizing: border-box;
+}
+
+.white
+{
+    margin-top:50px;
+    margin-left:150px;
+    width:560px;
+    height:360px;
+    background:white;
+    padding-top:150px;
+    border:2px solid black;
+   
+}
+.b1
+{
+    width:557px;
+    height:60px;
+    background: #002F6C;
+}
+.b2
+{
+    width:358px;
+    height:60px;
+    background:#002F6C;
+    transform:rotate(90deg);
+    position:relative;
+    bottom:2px;
+}

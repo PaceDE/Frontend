@@ -1,0 +1,64 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background:#7dacda;
+}
+h1
+{
+    background:linear-gradient(white,#7dacda,white,#7dacda,white,#7dacda);
+    color:black;   
+}
+.container
+{
+    margin-top:100px;
+    margin-left:50px;
+    display:flex;
+    flex-direction: row;
+}
+.card
+{
+    background: white;
+    width:200px;
+    height:275px;
+    border-radius: 20px;
+    margin-left:25px;
+}
+
+.img1
+{ 
+    width:160px;
+    height:270px;
+    background-image:url('E:/Photos/Web/dybala.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top:20px;
+    left:20px;
+    transition: 1s all linear;
+    
+}
+.img1:hover
+{
+    width:160px;
+    height:270px;
+    background-image:url('E:/Photos/Web/dybalawc.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top:20px;
+    left:20px;
+    border-radius: 0px;
+    transform: scale(1.1);
+}
+
+.title
+{
+    padding-top:50px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 

@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+   box-sizing: border-box;
+}
+.white
+{
+    margin-top:50px;
+    margin-left:150px;
+    width:560px;
+    height:360px;
+    background:white;
+   
+    
+}
+.blue1
+{
+    width:560x;
+    height:120px;
+    background:skyblue;
+}
+.blue2
+{
+    width:560x;
+    height:120px;
+    background:skyblue;
+    position: relative;
+    top:118px;
+}
+img
+{
+   position:relative;
+   bottom:103px;
+   left:225px;
+   
+}

@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1
+{
+   background:black;
+   color:antiquewhite; 
+   text-align: center;
+}
+h2
+{
+    background-color: #171D3B;
+    color:aliceblue;
+}
+.fd
+{
+    text-align:center;
+    background: white;
+    width:1500px;
+    height:150px;
+}
+table
+{
+    border:1px solid black;
+}
+td
+{
+    font-size:x-large;
+}
+#fid
+{
+    background:grey;
+    width:1500px;
+    height:1000px;
+}
+    

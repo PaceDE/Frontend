@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1
+{
+    background:black;
+    color:aliceblue;
+    text-align:center;
+}
+.fc
+{
+    background:linear-gradient(red,yellow);
+    height:750px;
+    
+}
+.sc
+{
+    background:linear-gradient(purple,blue);
+    margin-left:50px;
+    padding:1;
+    height:650px;
+    text-align:center;
+    
+}
+.tc
+{
+    background:linear-gradient(pink,skyblue);
+    margin-left:50px;
+    padding:1;
+    height:450px;
+    text-align:center;
+    
+}
+h3
+{
+    writing-mode:vertical-rl;
+    position:relative; top:300px;
+    
+}
