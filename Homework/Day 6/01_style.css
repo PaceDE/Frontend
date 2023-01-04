@@ -10,23 +10,15 @@ body
 h1
 {
     background:linear-gradient(white,#7dacda,white,#7dacda,white,#7dacda);
-    color:black;   
+    color:black; 
+    width:100%;  
 }
 .position
 {
-    position:relative;
-    top:50px;
-    left:50px;
+   
+    margin-top:50px;
+    text-align:center;
     background: transparent;
-}
-
-.title h5
-{
-    color:gray;
-    padding-top:15px;
-    font-family:monospace;
-
-
 }
 
 .container
@@ -34,12 +26,12 @@ h1
     margin-top:60px;
     margin-left:50px;
     display:flex;
-    flex-wrap:wrap;
-    
-   
-
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow:auto;
+    width: 96%;
+    height:500px;
 }
-
 .card
 {
     margin-left:100px;
@@ -51,12 +43,23 @@ h1
     border:4px solid goldenrod;
     box-shadow: 10px 10px 18px  black;
 }
-
 .img
 { 
     width:80%;
     padding:20px 0px 0px 20px ;
     
+}
+.title h5, h4
+{
+    color:gray;
+    padding-top:15px;
+    font-family:monospace;
+}
+.title
+{
+    padding-top:10px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .overlay 
 {
@@ -64,15 +67,9 @@ h1
     width:80%;
     opacity:0;
     position:relative;
-    bottom:258px;
+    bottom:261px;
     left:20px;
     box-sizing: border-box;
-}
-.title
-{
-    padding-top:10px;
-    text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .card .overlay:hover
 {
